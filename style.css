@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #e7e7e7;
+  padding-top: 100px;
+}
+header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+header h1 {
+padding-bottom: 50px;
+text-decoration: underline;
+color: rgb(18, 18, 110);
+  font-size: 40px;
+  font-weight: bold;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+form input {
+  font-size: 10px;
+  background-color: #f3f0f0;
+  border: none;
+  border-radius: 20px;
+  border-bottom: 2px solid #000;
+  padding: 15px;
+  font-size: 10px;
+}
+form{
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+body label{
+  font-size: 26px;
+  margin-top: 5px;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+form button{
+  background-color: #449e47;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+}
+table th {
+  border-bottom: 2px solid #000;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  table{
+    width: 100%;
+  }
+  table td {
+    padding: 19px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+tbody td{
+  color: red;
+}
